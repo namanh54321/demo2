@@ -1,0 +1,201 @@
+@media all and (max-width:600px) {
+    .container{
+
+    }
+    /* navbar reponsive  */
+    .container .navbar-container{
+        margin: 48px auto 0;
+        width: 88%;
+        
+    }
+    .container .navbar-container .navbar-container_content{
+        font-size: 0.775rem;
+        text-transform: none;
+    }
+    .container .navbar-container .navbar-container_list{
+        display: none;
+    }
+    .container .navbar-container .navbar-container_icon{
+        display: block;
+    }
+
+    /* hero reponsive  */
+    .container .hero-container{
+        width: 88%;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        margin-top: 60px;
+    }
+    .container .hero-container .hero-container_content{
+        text-align:center;
+        padding: 0;
+        height: 230px;
+        
+    }
+    .container .hero-container .hero-container_content h1{
+        font-size: 2.2rem;
+        line-height: 39px;
+    }
+    .container .hero-container .hero-container_content p{
+        font-size: 0.9rem;
+    }
+    .container .hero-container .hero-container_content button{
+        margin: 0 auto;
+        padding: 10px 20px;
+        font-size: 0.8;
+    }
+    .container .hero-container .hero-container_image{
+        width:100%;
+        margin-top: 48px;
+    }
+
+    /* container reponsive */
+    .container .companies-container{
+        width: 88%;
+        margin-top:100px ;
+    }
+    .container .companies-container .companies-container_content{
+        font-size: 0.775em;
+    }
+    .container .companies-container .companies-container_list .companies-container_item{
+        font-size: 0.775rem;
+    }
+
+
+    /* branding reponsive  */
+    .container .branding-container{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 88%;
+        margin-top: 88px;
+    }
+    .container .branding-container .branding-container_content{
+        padding: 0;
+        height: 212px;
+    }
+    .container .branding-container .branding-container_content h2{
+        font-size: 1.8rem;
+    }
+    .container .branding-container .branding-container_content p{
+        font-size: 0.775em;
+    }
+    .container .branding-container .branding-container_content .branding-container_icon2{
+    display: block;
+    }
+    .container .branding-container .branding-container_content .branding-container_icon1{
+    display: none;
+    }
+    .container .branding-container .branding-container_image{
+        width: 100%;
+        margin-top: 25px;
+    }
+
+
+    /* custome reponsive */
+    .container .custome-container{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 88%;
+        margin-top: 88px;
+    }
+    .container .custome-container .custome-container-content{
+        padding: 0;
+    }
+    .container .custome-container .custome-container-content h2{
+        font-size: 1.8rem;
+    }
+    .container .custome-container .custome-container-content p{
+        font-size: 0.775em;
+    }
+    .container .custome-container .custome-container-content .custome-container_icon2{
+    display: block;
+    }
+    .container .custome-container .custome-container-content .custome-container_icon1{
+    display: none;
+    }
+    .container .custome-container .custome-container_image{
+        width: 100%;
+        margin-top: 25px;
+    }
+
+
+    .container .testimonial-container{
+        width: 88%;
+
+    }
+    .container .testimonial-container .testimonial-container_test p{
+        font-size: 0.875rem;
+    }
+    .container .testimonial-container .testimonial-container_test h2{
+        font-size: 1.75rem;
+        padding: 16px 0;
+    }
+    .container .testimonial-container .testimonial-container_list{
+        flex-direction: column;
+        
+    }
+    .container .testimonial-container .testimonial-container_list .testimonial-container_content{
+        width: 100%;
+        margin:0 0 40px;
+    }
+    .container .testimonial-container .testimonial-container_list .testimonial-container_content .testimonial-container_content1 span{
+        font-size: 1.125rem;
+    }
+    .container .testimonial-container .testimonial-container_list .testimonial-container_content .testimonial-container_content1 p{
+        font-size: 0.785rem;
+    }
+
+
+
+    /* contact reponsive  */
+    .container .contact-container{
+        width: 88%;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 100px;
+    }
+
+   .container .contact-container .contact-container-content{
+    padding: 0;
+    text-align: center;
+   }
+   .container .contact-container .contact-container-content h2{
+    font-size: 1.850rem;
+    line-height: 35px;
+    padding: 56px 35px 32px ;
+    }
+    .container .contact-container .contact-container-content p{
+        font-size: 0.79rem;
+        padding: 0 15px 48px;
+       
+    }
+    .container .contact-container .contact-container-content button{
+        margin:0 auto 40px;
+    }
+    .container .contact-container .contact-container_image{
+        display: none;
+    }
+
+
+    /* footer reponsive */
+    .container .footer-container{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+     
+        
+    }
+   .container .footer-container .footer-container_list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     }
+     .container .footer-container .footer-container_list .footer-container_item{
+        margin: 70px auto 52px;
+     }
+}
